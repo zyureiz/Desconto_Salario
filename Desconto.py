@@ -1,11 +1,11 @@
 def calcular_desconto_salario(salario):
-    if salario <= 600:
+    if salario <= 1320:
         desconto = salario * 0.05  # 5% de imposto
-    elif salario <= 1200:
-        desconto = salario * 0.10  # 10% de imposto
     elif salario <= 2000:
+        desconto = salario * 0.10  # 10% de imposto
+    elif salario <= 3000:
         desconto = salario * 0.15  # 15% de imposto
-    elif salario <= 5000:
+    elif salario <= 6000:
         desconto = salario * 0.20  # 20% de imposto
     else:
         desconto = salario * 0.25  # 25% de imposto
